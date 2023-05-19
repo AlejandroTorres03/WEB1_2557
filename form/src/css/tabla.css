@@ -1,0 +1,54 @@
+body{
+    background: rgb(0, 0, 0);
+    background: linear-gradient(90deg, rgb(0, 0, 0) 19%, rgb(0, 0, 0) 58%, rgb(0, 0, 0) 89%);
+    color: rgb(226, 226, 226);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.principio {
+    height: 150px;
+    background: url(../images/3.jpg) no-repeat center top;
+    background-size: cover;
+    padding: 25px;
+}
+
+.titulo {
+    padding: 15px;
+    width: fit-content;
+    background-color: black;
+    border-radius: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:visited{
+    color: white;
+}
+
+a:hover{
+    color: rgb(103, 253, 148);
+}
+
+th{
+    /* background-color: black; */
+    padding: 15px;
+    color: rgb(103, 253, 148);
+}
+
+table{
+    border-style: solid;
+}
+
+td{
+    text-align: center;
+    padding: 15px;
+}
+
+.logout{
+    border: 2px solid rgb(255, 255, 255);
+    padding: 7px;
+    background-color: black;
+}
